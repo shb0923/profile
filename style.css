@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700");
+
+body {
+  background-image: url("images/collage.png");
+  background-size: contain;
+  font-family: "Open Sans";
+  color: #8d99ae;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+  color: #45474B;
+  font-family: "Roboto";
+  font-size: 40px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h2 {
+  color: #45474B;
+  font-family: "Roboto";
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.white-card {
+  background-color: #EEEEEE;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.logo-profile {
+  width: 90px;
+  height: 45px;
+  padding: 5px;
+}
+
+.logo-profile:hover {
+  transform: scale(110%);
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
