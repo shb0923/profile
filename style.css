@@ -55,7 +55,8 @@ h2 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  text-align: center;
+  object-fit: cover;
+  object-position: center;
 }
 @media (max-width: 960px) {
   .container {
